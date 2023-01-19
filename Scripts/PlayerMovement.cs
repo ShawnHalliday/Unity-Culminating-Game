@@ -135,6 +135,7 @@ public class PlayerMovement : MonoBehaviour
         {
             state = MovementState.wallrunning;
             desiredMoveSpeed = wallrunSpeed;
+            
         }
 
         // Mode - Sliding

@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class Sliding : MonoBehaviour
 {
-    [Header("References")]
+    [Header("Refs")]
     public Transform orientation;
     public Transform playerObj;
     private Rigidbody rb;
     private PlayerMovement pm;
 
-    [Header("Sliding")]
+    [Header("Sliding Vars")]
     public float maxSlideTime;
     public float slideForce;
     private float slideTimer;

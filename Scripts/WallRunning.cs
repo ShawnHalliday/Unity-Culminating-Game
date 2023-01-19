@@ -115,10 +115,28 @@ public class WallRunning : MonoBehaviour
         // push to wall force
         if (!(wallLeft && horizontalInput > 0) && !(wallRight && horizontalInput < 0))
             rb.AddForce(-wallNormal * 100, ForceMode.Force);
+            
+        if(Input.GetKey(pm.jumpKey))
+        {
+            rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
+
+            rb.AddForce(transform.up * pm.jumpForce, ForceMode.Impulse);
+            if(wallLeft)
+            {
+                rb.AddForce(orientation.right * pm.jumpForce * 4, ForceMode.Impulse);
+            }
+            else if (wallRight)
+            {
+                rb.AddForce(orientation.right * pm.jumpForce * -4, ForceMode.Impulse);
+            }
+
+                StopWallRun();
+        }
     }
 
     private void StopWallRun()
     {
         pm.wallrunning = false;
+       
     }
 }
