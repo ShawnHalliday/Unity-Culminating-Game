@@ -10,5 +10,5 @@ Monday, January 16, 2023 (1:27 PM) || Made John the turret and started work on t
 Tuesday, January 17 2023 (8:32 PM) || AI works, map 3 done, started work on escape hud to look at stats, and leave game.
 Wednesday, January 18 2023 (11:23 PM) || Data persistance almost done working and finished escape hud layout with a few programming errors.
 Thursday, January 19 2023 (8:12 PM) || Made escape hud work without flaws and just need to port to other scenes without error.
-Firday, January 20 2023 (xx:xx PM) || Finished Game and built and working.
+Firday, January 20 2023 (4:21 PM) || Finished Game and built and working.
 
