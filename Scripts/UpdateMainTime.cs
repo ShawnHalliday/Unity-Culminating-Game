@@ -8,13 +8,13 @@ public class UpdateMainTime : MonoBehaviour
 {
     public TMP_Text TimeText;
     private TimeTracking tt;
-    // Start is called before the first frame update
+    // allowing me to use variables from a different script
     void Start()
     {
         tt = GetComponent<TimeTracking>();
     }
 
-    // Update is called once per frame
+    // Displaying Total time played
     void Update()
     {
         TimeText.text = "Total Seconds Played: " + Math.Round(tt.totalTimePlayed);

@@ -10,7 +10,7 @@ public class StatsMain : MonoBehaviour
     public GameObject StatsButton;
     public GameObject BackButton;
     public GameObject StatValueHolder;
-
+    //More ui manipulation for escape menu
     private void Start()
     {
         Cursor.visible = true;

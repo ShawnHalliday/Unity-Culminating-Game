@@ -7,6 +7,7 @@ public class EscapeHud : MonoBehaviour
 
     void Update()
     {
+        //Checks if you press escape and if you do it unhides the escape menu ui
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Cursor.visible = true;

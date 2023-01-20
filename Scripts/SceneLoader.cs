@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
     public string sceneName;
-
+    //Loads a scene on mouse up
     private void OnMouseUpAsButton() {
         SceneManager.LoadScene(sceneName);
     }

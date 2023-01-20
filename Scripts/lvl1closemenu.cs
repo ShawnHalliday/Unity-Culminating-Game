@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//Samething as CloseMenu.CS except it works on the tutorial scene
 public class lvl1closemenu : MonoBehaviour
 {
     public GameObject hud;
