@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class LoadTutMain : MonoBehaviour
 {
-
     public void Play()
     {
         SceneManager.LoadScene("Tutorial");
