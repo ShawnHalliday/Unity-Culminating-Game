@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CloseMenu : MonoBehaviour
+public class lvl1closemenu : MonoBehaviour
 {
     public GameObject hud;
     public GameObject settingsopt;
