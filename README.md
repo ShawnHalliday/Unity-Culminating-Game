@@ -1,5 +1,5 @@
 # Unity-Culminating-Project(Gr.11)
-Unity Culminating Game Grade | 11 CS class 
+Unity Culminating Game | Grade 11 CS class 
 
 : : Manual Upodate Logs : :
 Sunday, December 18, 2022 (11:23 PM) || Started the Project, I have made 2 finished scripts (MoveCamera.cs & PlayerCam.cs) and 1 unfinished (PlayerMovement.cs).
